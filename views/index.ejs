@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <ul>
+        <% data.forEach(function(item){ %>
+        <li><%= item.name %></li>
+        <% }) %>
+    </ul>
+</body>
+
+</html>
